@@ -169,12 +169,6 @@ sequenceDiagram
     App-->>You: Answer with evidence table and chart
 ```
 
-<div align="center"><img src="assets/data-flow.png" width="860" alt="From upload to report"/></div>
-
-<div align="center"><img src="assets/question-routing.png" width="480" alt="How a question is routed"/></div>
-
-<div align="center"><img src="assets/question-sequence.png" width="860" alt="Anatomy of one question"/></div>
-
 **Step 2 produces data, not prose.** The plan is a small JSON object, and the model must pick its `operation` from a closed set of eleven: `sum`, `mean`, `median`, `count`, `min`, `max`, `trend`, `correlation`, `distribution`, `top_n`, `summary`.
 
 ```json
