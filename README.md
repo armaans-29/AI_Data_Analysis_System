@@ -1,16 +1,17 @@
 <div align="center">
 
-# AI DATA ANALYSIS
+# AI DATA ANALYSIS SYSTEM 
 <p>
-<i>A Streamlit platform that profiles, cleans, visualizes, and answers questions about any CSV or Excel file —<br>
-with a language model that is never allowed to do the math.</i>
+<i>A Streamlit platform that profiles, cleans, visualizes and answers questions about any CSV or Excel file —<br>
+with a language model that does the math and all briliantly by itself.</i>
 </p>
 
+<br>
 <a href="https://ai-data-analysis-system.streamlit.app/">
 <img src="https://img.shields.io/badge/Live_Demo-Launch_the_App-6FD6FF?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=203A43"/>
 </a>
 
-<br><br>
+<br>
 
 <b><a href="#the-problem">Problem</a></b> &nbsp;·&nbsp;
 <b><a href="#the-idea">Idea</a></b> &nbsp;·&nbsp;
@@ -21,7 +22,7 @@ with a language model that is never allowed to do the math.</i>
 <b><a href="#privacy-what-leaves-your-machine">Privacy</a></b> &nbsp;·&nbsp;
 <b><a href="#limitations-and-roadmap">Limitations</a></b>
 
-<br><br>
+<br>
 
 <table>
 <tr>
@@ -37,8 +38,6 @@ with a language model that is never allowed to do the math.</i>
 
 <br>
 
-## Try It Live
-
 <div align="center">
 
 <table>
@@ -46,27 +45,18 @@ with a language model that is never allowed to do the math.</i>
 
 <br>
 
-**See it running — no installation required**
+<i>A good 60-second tour: **upload** any CSV or Excel file → open **Dashboard** to see the quality score and how it was calculated → ask **Ask Your Data** something like *"Which category has the highest total sales?"* and expand the evidence table to see the numbers behind the answer.<i>
+
+> [!NOTE]
+> The demo runs on Streamlit Community Cloud, so it may take a few seconds to wake up after a period of inactivity. Please avoid uploading confidential data to a public demo — see [Privacy](#privacy-what-leaves-your-machine).
 
 <br>
-
-<a href="https://ai-data-analysis-system.streamlit.app/">
-<img src="https://img.shields.io/badge/Open_the_Live_App-ai--data--analysis--system.streamlit.app-0F2027?style=for-the-badge&logo=streamlit&logoColor=6FD6FF&labelColor=2C5364"/>
-</a>
-
-<br><br>
 
 </td></tr>
 </table>
 
 </div>
 
-A good 60-second tour: **upload** any CSV or Excel file → open **Dashboard** to see the quality score and how it was calculated → ask **Ask Your Data** something like *"Which category has the highest total sales?"* and expand the evidence table to see the numbers behind the answer.
-
-> [!NOTE]
-> The demo runs on Streamlit Community Cloud, so it may take a few seconds to wake up after a period of inactivity. Please avoid uploading confidential data to a public demo — see [Privacy](#privacy-what-leaves-your-machine).
-
-<br>
 
 ## The Problem
 
@@ -468,7 +458,7 @@ The full dataset is never transmitted.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:203A43,100:2C5364&height=2&width=700"/>
 
-<br><br>
+<br>
 
 **Built by Armaan Srivastava**
 
@@ -479,7 +469,7 @@ The full dataset is never transmitted.
 <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
 </a>
 
-<br><br>
+<br>
 
 <sub>Built on one simple belief: AI is most useful in analytics when it is trusted for judgment and never for arithmetic.</sub>
 
