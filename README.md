@@ -6,7 +6,6 @@
 with a language model that does the math and all briliantly by itself.</i>
 </p>
 
-<br>
 <a href="https://ai-data-analysis-system.streamlit.app/">
 <img src="https://img.shields.io/badge/Live_Demo-Launch_the_App-6FD6FF?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=203A43"/>
 </a>
@@ -169,6 +168,12 @@ sequenceDiagram
     Narrator-->>App: Finding, evidence, interpretation
     App-->>You: Answer with evidence table and chart
 ```
+
+<div align="center"><img src="assets/data-flow.png" width="860" alt="From upload to report"/></div>
+
+<div align="center"><img src="assets/question-routing.png" width="480" alt="How a question is routed"/></div>
+
+<div align="center"><img src="assets/question-sequence.png" width="860" alt="Anatomy of one question"/></div>
 
 **Step 2 produces data, not prose.** The plan is a small JSON object, and the model must pick its `operation` from a closed set of eleven: `sum`, `mean`, `median`, `count`, `min`, `max`, `trend`, `correlation`, `distribution`, `top_n`, `summary`.
 
