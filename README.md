@@ -44,7 +44,7 @@ with a language model that does the math and all briliantly by itself.</i>
 
 <br>
 
-<i>A good 60-second tour: **upload** any CSV or Excel file → open **Dashboard** to see the quality score and how it was calculated → ask **Ask Your Data** something like *"Which category has the highest total sales?"* and expand the evidence table to see the numbers behind the answer.<i>
+<i>A short Idea about using this: **upload** any CSV or Excel file → open **Dashboard** to see the quality score and how it was calculated → ask **Ask Your Data** something like *"Which category has the highest total sales?"* and expand the evidence table to see the numbers behind the answer.<i>
 
 > [!NOTE]
 > The demo runs on Streamlit Community Cloud, so it may take a few seconds to wake up after a period of inactivity. Please avoid uploading confidential data to a public demo — see [Privacy](#privacy-what-leaves-your-machine).
